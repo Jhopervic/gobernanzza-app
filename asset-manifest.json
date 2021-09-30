@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/gobernanzza-app/static/css/main.1bac2a87.chunk.css",
+    "main.js": "/gobernanzza-app/static/js/main.82609c43.chunk.js",
+    "main.js.map": "/gobernanzza-app/static/js/main.82609c43.chunk.js.map",
+    "runtime-main.js": "/gobernanzza-app/static/js/runtime-main.a191b2c1.js",
+    "runtime-main.js.map": "/gobernanzza-app/static/js/runtime-main.a191b2c1.js.map",
+    "static/css/2.f2512455.chunk.css": "/gobernanzza-app/static/css/2.f2512455.chunk.css",
+    "static/js/2.cea594bb.chunk.js": "/gobernanzza-app/static/js/2.cea594bb.chunk.js",
+    "static/js/2.cea594bb.chunk.js.map": "/gobernanzza-app/static/js/2.cea594bb.chunk.js.map",
+    "static/js/3.aa6b6136.chunk.js": "/gobernanzza-app/static/js/3.aa6b6136.chunk.js",
+    "static/js/3.aa6b6136.chunk.js.map": "/gobernanzza-app/static/js/3.aa6b6136.chunk.js.map",
+    "index.html": "/gobernanzza-app/index.html",
+    "static/css/2.f2512455.chunk.css.map": "/gobernanzza-app/static/css/2.f2512455.chunk.css.map",
+    "static/css/main.1bac2a87.chunk.css.map": "/gobernanzza-app/static/css/main.1bac2a87.chunk.css.map",
+    "static/js/2.cea594bb.chunk.js.LICENSE.txt": "/gobernanzza-app/static/js/2.cea594bb.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/gobernanzza-app/static/media/gobernanzza-font.bee2ad03.eot",
+    "static/media/gobernanzza_log.svg": "/gobernanzza-app/static/media/gobernanzza_log.429a577e.svg",
+    "static/media/img_crear.svg": "/gobernanzza-app/static/media/img_crear.0b1b7dd6.svg",
+    "static/media/loading.svg": "/gobernanzza-app/static/media/loading.44770c0c.svg",
+    "static/media/puzzle.png": "/gobernanzza-app/static/media/puzzle.30080c87.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a191b2c1.js",
+    "static/css/2.f2512455.chunk.css",
+    "static/js/2.cea594bb.chunk.js",
+    "static/css/main.1bac2a87.chunk.css",
+    "static/js/main.82609c43.chunk.js"
+  ]
+}
