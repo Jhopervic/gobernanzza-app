@@ -8,32 +8,32 @@ import Root from "components/pages/Root"
 const publicRoutes = [
   {
     name: "root",
-    route: "/gobernanzza-app",
+    route: "/",
     component: Root,
   },
   {
     name: "home",
-    route: "/gobernanzza-app/pantalla-principal",
+    route: "/pantalla-principal",
     component: Home,
   },
   {
     name: "signup",
-    route: "/gobernanzza-app/crear-cuenta",
+    route: "/crear-cuenta",
     component: Signup,
   },
   {
     name: "accountcreated",
-    route: "/gobernanzza-app/cuenta-creada-con-exito",
+    route: "/cuenta-creada-con-exito",
     component: AccountCreated,
   },
   {
     name: "homewithoutcoop",
-    route: "/gobernanzza-app/inicio-usuario-sin-coop",
+    route: "/inicio-usuario-sin-coop",
     component: HomeWithoutCoop,
   },
   {
     name: "searchcoop",
-    route: "/gobernanzza-app/buscador-de-coop",
+    route: "/buscador-de-coop",
     component: SearchCoop,
   },
  

@@ -13,11 +13,11 @@ function Root(props) {
         </SDivRoot>
         <SDivLinks>
           <ul>
-            <li> <a href="/gobernanzza-app/pantalla-principal" >1.- Pantalla Principal</a></li>
-            <li><a href="/gobernanzza-app/crear-cuenta" >2.- 02. Crear Cuenta</a></li>
-            <li><a href="/gobernanzza-app/cuenta-creada-con-exito" >3.- 03. Crear cuenta con éxito</a></li>
-            <li><a href="/gobernanzza-app/inicio-usuario-sin-coop" >4.- Inicio “usuario sin coop”</a></li>
-            <li><a href="/gobernanzza-app/buscador-de-coop" >5.- Buscador de Coop. 1</a></li>
+            <li> <Link to="pantalla-principal">1.- Pantalla Principal</Link></li>
+            <li><Link to="crear-cuenta">2.- 02. Crear Cuenta</Link></li>
+            <li><Link to="cuenta-creada-con-exito">3.- 03. Crear cuenta con éxito</Link></li>
+            <li><Link to="inicio-usuario-sin-coop">4.- Inicio “usuario sin coop”</Link></li>
+            <li><Link to="buscador-de-coop">5.- Buscador de Coop. 1</Link></li>
           </ul>
         </SDivLinks>
     </BaseLayout>

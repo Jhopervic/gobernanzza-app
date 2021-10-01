@@ -1,8 +1,7 @@
 import React from "react";
-import { Switch, HashRouter,Route } from "react-router-dom";
+import { Switch, HashRouter } from "react-router-dom";
 import { authR, protectedR, publicR } from "./routes";
 import ScrollToTop from "./routes/validators/ScrollToTop";
-
 import {
   createRoutesAuth,
   createRoutesProtected,
@@ -10,16 +9,15 @@ import {
 } from "./routes/validators/routeGenerators";
 
 // import NotFound from "components/NotFound";
-import Root from "components/pages/Root"
-import Home from "components/pages/Home";
 
 function AppRouter() {
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <ScrollToTop />
       <Switch>
-        <Route exact path="/" component={Root} />
-        <Route  path="/page2" component={Home} />
+        {createRoutesProtected(protectedR)}
+        {createRoutesAuth(authR)}
+        {createRoutesPublic(publicR)}
       </Switch>
     </HashRouter>
   );
