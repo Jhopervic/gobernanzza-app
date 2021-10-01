@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SDivMenu = styled.div`
-  position: absolute;
+  position: relative;
   left: 0;
   right: 0;
   top: 0;
@@ -86,6 +86,7 @@ export const SDivLB03 = styled.div`
   margin-top: 60pt;
   padding-left:20px;
   padding-right:20px;
+  padding-bottom:20px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;

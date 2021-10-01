@@ -1,9 +1,9 @@
 import React from "react";
 import BaseLayout from "components/layout/BaseLayout";
 import {SDivMenu,SDivLogo,SDivLB01,SDivLB02,SDivLB03,SDivLB04,FooterBox} from "./customstyled"
+import { MainContainer,WorkArea } from "components/styled-components/components";
+import {Col} from 'react-bootstrap'
 function HomeWithoutCoop(props) {
-  
-
   return (
     <>
       <BaseLayout>
@@ -26,11 +26,19 @@ function HomeWithoutCoop(props) {
       <SDivLB02>A continuación puedes ver un resumen detallado de la/s cooperativa/s de las que formas parte</SDivLB02>
       <SDivLB03>Tus Cooperativas</SDivLB03>
       <SDivLB04>Aún no participas en ninguna cooperativa.</SDivLB04>
-      <FooterBox><img
-            src={require("components/assets/img/img_crear.svg").default}
-            alt="Gobernanzza"
-          />
-          <i className="icon-add"></i></FooterBox>
+      <FooterBox >
+        <MainContainer>
+          <WorkArea > 
+          <Col xs={12} sm={12} md={7} lg={6} xl={5} >
+          <img
+                    src={require("components/assets/img/img_crear.svg").default}
+                  alt="Gobernanzza"
+                />
+                <i className="icon-add"></i>
+          </Col>
+        </WorkArea>
+        </MainContainer>
+      </FooterBox>
       </BaseLayout>
     </>
   );

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SDivMenu = styled.div`
-  position: absolute;
+  position: relative;
   left: 0;
   right: 0;
   top: 0;
