@@ -1,6 +1,7 @@
 import React from "react";
 import {SDivRoot,SDivLinks} from "./customstyled"
 import BaseLayout from "components/layout/BaseLayout";
+import {  Link } from "react-router-dom";
 function Root(props) {
   return (    
     <BaseLayout>
@@ -18,7 +19,6 @@ function Root(props) {
             <li><a href="/gobernanzza-app/inicio-usuario-sin-coop" >4.- Inicio “usuario sin coop”</a></li>
             <li><a href="/gobernanzza-app/buscador-de-coop" >5.- Buscador de Coop. 1</a></li>
           </ul>
-        
         </SDivLinks>
     </BaseLayout>
     
