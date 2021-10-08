@@ -4,6 +4,7 @@ import {SDivMenu,
         SDivCooperativeItem,
         SDivBadges,
         SDivInformation,
+        SDivRow,
         SDivColLeft,
         SDivColRight,
         SDivAnnouncementBtn,
@@ -49,7 +50,7 @@ function Cooperative(props) {
               <SDivBadges>Miembro</SDivBadges>
         </Col>    
       </SDivCooperativeItem>
-      <Row xs={12} sm={12} md={12} lg={12} xl={12}>
+      <SDivRow >
       <Accordion  flush>
          <Accordion.Item eventKey="0">
                 <Accordion.Header >
@@ -150,7 +151,7 @@ function Cooperative(props) {
                 </Accordion.Body>
          </Accordion.Item>
       </Accordion>
-      </Row>
+      </SDivRow>
       <SDivGrid>
           <SDivOption>
               <img

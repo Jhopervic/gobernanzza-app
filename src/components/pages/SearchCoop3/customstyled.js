@@ -57,7 +57,6 @@ export const SDivCooperative = styled.div`
   padding-top:15px;
   padding-bottom:15px;
   border-bottom: rgb(0, 0, 0, 0.3) solid 1px; 
-  
   h3{
     vertical-align: middle; 
     font-family: Roboto;
@@ -125,11 +124,13 @@ export const SDivAnnouncement = styled.div`
      top:-17px;
   }
   h3{
+    width:80%;
     position:relative;
     top:-15px;
     left:57px;
     font-size: 10pt;
     font-weight: bold;
+    
   }
   div{
       postion:relative;
@@ -148,5 +149,5 @@ export const SDivBtn = styled.div`
   padding-left:15px;
   padding-right:15px;
   margin-top:20px;
-  margin-bottom:15px;
+  margin-bottom:15px;  
 `;

@@ -73,6 +73,7 @@ export const SDivCooperativeItem = styled.div`
     margin-bottom:-5px;
     }
   span{
+    display:block;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -131,8 +132,16 @@ export const SDivColLeft= styled.div`
    flex: 1 0;
    with:50%;   
    `;
+ export const SDivRow= styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0 !important;
+  margin-right:10px !important;
+  margin-left:10px !important;
+  background:red;
+ `;
 
-   export const SDivAnnouncementBtn = styled.div`
+export const SDivAnnouncementBtn = styled.div`
   display:flex;
   width:100% !important;
   padding-left:10px;
@@ -147,7 +156,7 @@ export const SDivAnnouncement = styled.div`
   margin-bottom:10px;
   line-height: 1em;
   h3{
-    font-family: Roboto;
+    family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;  
@@ -181,6 +190,8 @@ export const SDivGrid = styled.div`
   width:100% !important;
   margin-bottom:10px;
   margin-top:30px;
+  text-align: center;
+  justify-content: center;
 `;
 
 export const SDivOption = styled.div` 

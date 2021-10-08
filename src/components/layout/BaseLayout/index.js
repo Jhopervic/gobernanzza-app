@@ -8,7 +8,7 @@ function BaseLayout(props) {
   return (
     <MainContainer>
     <WorkArea > 
-     <Col xs={12} sm={12} md={7} lg={6} xl={5} >
+     <Col xs={12} sm={12} md={7} lg={6} xl={5}>
          {children}
      </Col>
    </WorkArea>

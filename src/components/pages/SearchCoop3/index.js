@@ -68,7 +68,7 @@ function SearchCoop3(props) {
         <SDivBtn>
               <SBtnPrimary onClick={onClickBtn}>
                            <span>Unirme a esta cooperativa</span> </SBtnPrimary>
-              </SDivBtn> 
+        </SDivBtn> 
       </BaseLayout>
     </>
   );
