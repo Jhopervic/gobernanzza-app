@@ -7,8 +7,8 @@ function BaseLayout(props) {
   const { children } = props;
   return (
     <MainContainer>
-    <WorkArea > 
-     <Col xs={12} sm={12} md={7} lg={6} xl={5}>
+    <WorkArea className="debug-border1"> 
+     <Col xs={12} sm={12} md={7} lg={6} xl={5} className="debug-border2">
          {children}
      </Col>
    </WorkArea>

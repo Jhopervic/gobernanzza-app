@@ -1,9 +1,17 @@
-import React from "react";
+import React,{useState} from "react";
 import BaseLayout from "components/layout/BaseLayout";
-import {SDivMenu,SDivLB01,SDivLB02,SDivLB03,SDivSearch,SDivImg} from "./customstyled"
+import {SDivMenu,SDivLB01,SDivLB02,DoNotData,SDivSearch,SDivCooperativeList} from "./customstyled"
 import { SInputText } from "components/styled-components/components";
 function SearchCoop(props) {
-  
+  const [search, setSearch] = useState(false);
+  const handleChange = (event) => {
+    if(event.target.value !== ''){
+      setSearch(true)
+    }
+    else{
+      setSearch(false)
+    }
+  }
 
   return (
     <>
@@ -23,15 +31,14 @@ function SearchCoop(props) {
       <SDivSearch>
               <SInputText
                 type="text"
-                placeholder="Buscar cooperativa"                
+                placeholder="Buscar cooperativa"
+                onChange={handleChange}                
               />
        </SDivSearch>
-      <SDivImg> <img
-            src={require("components/assets/img/puzzle.png").default}
-            alt="Gobernanzza"
-          />
-      </SDivImg>
-      <SDivLB03>Aquí podrás ver una lista con acceso a su formación general para que puedas estar seguro de que es la cooperativa que buscas.</SDivLB03>
+       {search===false ? 
+      (<DoNotData />)
+      :<SDivCooperativeList/>
+      }
       </BaseLayout>
     </>
   );

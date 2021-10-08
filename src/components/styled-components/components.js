@@ -115,6 +115,67 @@ export const SBtnPrimary = styled.button`
     }
 `;
 
+export const SBtnSecundary = styled.button`
+    width: 100%;
+    border: 1px solid #B0B0B0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.0125em;
+    color: #B0B0B0;
+    background:#FFFFFF;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    :disabled {
+      opacity: 0.4;
+    }
+    &:hover:enabled {
+     color:#F2753F;
+     background-color: #FFF;
+    }
+    span{
+      vertical-align: middle;
+    }
+`;
+
+export const SBtnPrimarySm = styled.button`
+    width: 95%;
+    border-radius: 10pt;
+    border-style: solid;
+    padding-top: 3pt;
+    padding-bottom: 3pt;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    border-color: #F2753F;
+    background-color: #F2753F;
+    color: #FFFFFF;
+    &.inactive{
+      border-color: #F6F6F6;
+      background-color: #F6F6F6;
+      color: #000000;
+    }
+    :disabled {
+      opacity: 0.4;
+    }
+    &:hover:enabled {
+     color:#F2753F;
+     background-color: #FFF;
+    }
+    span{
+      vertical-align: middle;
+    }
+`;
+
 export const SLoading = styled.div`
     color: #fff !important;
     display: inline-block;

@@ -1,7 +1,7 @@
 import React from "react";
 import {SDivRoot,SDivLinks} from "./customstyled"
 import BaseLayout from "components/layout/BaseLayout";
-import {  Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 function Root(props) {
   return (    
     <BaseLayout>
