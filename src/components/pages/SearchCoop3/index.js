@@ -1,10 +1,11 @@
 import React from "react";
 import BaseLayout from "components/layout/BaseLayout";
-import {SDivMenu,SDivCooperative,SDivParagraph,SDivAnnouncement,SDivBtn} from "./customstyled"
+import {SDivCooperative,SDivParagraph,SDivAnnouncement,SDivBtn} from "./customstyled"
 import {Col} from 'react-bootstrap'
 import { SBtnPrimary } from "components/styled-components/components";
 import { reverseURL } from "components/app/Router/utils";
 import { useHistory } from "react-router-dom";
+import Menu from "components/layout/Menu";
 function SearchCoop3(props) {
   const history = useHistory();
   const onClickBtn = () => {
@@ -14,15 +15,7 @@ function SearchCoop3(props) {
    return (
     <>
       <BaseLayout>
-        <SDivMenu><span>Buscar</span>
-        <nav>
-          <ul>
-            <li><a href="/buscador-de-coop"><i className="icon-mail"></i></a></li>
-            <li><a href="/buscador-de-coop"><i className="icon-scan"></i></a></li>
-            <li><a href="/buscador-de-coop"><i className="icon-menu"></i></a></li>
-          </ul>
-        </nav>
-    </SDivMenu>
+        <Menu title="Buscar" />
    
       <SDivCooperative>
         <Col xs={8} sm={8} md={9} lg={9} xl={9}>

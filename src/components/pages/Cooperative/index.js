@@ -1,7 +1,6 @@
 import React,{useState} from "react";
 import BaseLayout from "components/layout/BaseLayout";
-import {SDivMenu,
-        SDivCooperativeItem,
+import {SDivCooperativeItem,
         SDivBadges,
         SDivInformation,
         SDivRow,
@@ -12,10 +11,15 @@ import {SDivMenu,
         SDivGrid,
         SDivOption,
         SDivBtnHome} from "./customstyled"
-import {Accordion,Row,Col} from 'react-bootstrap'
+import {Accordion,Col} from 'react-bootstrap'
 import { SBtnPrimarySm,SBtnSecundary } from "components/styled-components/components";
+import { useHistory } from "react-router-dom";
+import { reverseURL } from "components/app/Router/utils";
+import Menu from "components/layout/Menu";
+
 function Cooperative(props) {
   const [meetings, setMeetings] = useState(true);
+  const history = useHistory();
   const onClickBtn = (value) => {
      if (value==='Reuniones'){
       setMeetings(true)
@@ -23,20 +27,14 @@ function Cooperative(props) {
     else{
       setMeetings(false)
     }
-   console.log(value)
-};
+    };
+    const onClickOption = (value) => {
+      history.push(reverseURL({ name: value }));
+    };
   return (
     <>
       <BaseLayout>
-        <SDivMenu><span>Cooperativa</span>
-        <nav>
-          <ul>
-            <li><a href="/buscador-de-coop"><i className="icon-mail"></i></a></li>
-            <li><a href="/buscador-de-coop"><i className="icon-scan"></i></a></li>
-            <li><a href="/buscador-de-coop"><i className="icon-menu"></i></a></li>
-          </ul>
-        </nav>
-    </SDivMenu>
+        <Menu title="Cooperativa" />
     <SDivCooperativeItem>
         <Col xs={3} sm={3} md={2} lg={2} xl={2}>
         <img
@@ -188,14 +186,14 @@ function Cooperative(props) {
               />
               <span>ASAMBLEA</span>
           </SDivOption>
-          <SDivOption>
+          <SDivOption onClick={() => {onClickOption('debate')}}>
               <img
                   src={require("components/assets/img/icon_debate.svg").default}
                 alt="Debate"
               />
               <span>DEBATE</span>
           </SDivOption>
-          <SDivOption>
+          <SDivOption onClick={() => {onClickOption('voting')}}>
               <img
                   src={require("components/assets/img/icon_voting.svg").default}
                 alt="Votaciones"

@@ -143,6 +143,34 @@ export const SBtnSecundary = styled.button`
     }
 `;
 
+export const SBtnGrey = styled.button`
+    width: 100%;
+    border: 1px solid #B0B0B0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.0125em;
+    color: #FFFFFF;
+    background:#B0B0B0;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    :disabled {
+      opacity: 0.4;
+    }
+    &:hover:enabled {
+     color:#B0B0B0;
+     background-color: #FFF;
+    }
+    span{
+      vertical-align: middle;
+    }
+`;
+
 export const SBtnPrimarySm = styled.button`
     width: 95%;
     border-radius: 10pt;
@@ -189,3 +217,98 @@ export const SLoading = styled.div`
     border-radius: 50%;
     animation: .75s linear infinite spinner-border;
     `;
+
+   export const SBtnDangerSm = styled.button`
+    width: 100%;
+    border-style: solid;
+    padding-top: 3pt;
+    padding-bottom: 3pt;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    border-color: #F9CEC0;
+    background: #F9CEC0;
+    border-radius: 5px;
+    color: #E8703A !important;
+    &.inactive{
+      opacity: 0.4;
+    }
+    :disabled {
+      opacity: 0.4;
+    }
+    &:hover:enabled {
+     color:#E8703A;
+     background-color: #FFF;
+    }
+    span{
+      vertical-align: middle;
+      color: #E8703A !important;
+    }
+`;
+
+export const SBtnSpecialSm = styled.button`
+    width: 100%;
+    border-style: solid;
+    padding-top: 3pt;
+    padding-bottom: 3pt;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    border-color: #F48C06;
+    background: #F48C06;
+    border-radius: 5px;
+    color: #FFFFFF !important;
+    &.inactive{
+      opacity: 0.4;
+    }
+    :disabled {
+      opacity: 0.4;
+    }
+    &:hover:enabled {
+     color:#F48C06;
+     background-color: #FFF;
+    }
+    span{
+      vertical-align: middle;
+      color: #FFffFF !important;
+    }
+`;
+export const SBtnSpecial2Sm = styled.button`
+    width: 100%;
+    border-style: solid;
+    padding-top: 3pt;
+    padding-bottom: 3pt;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    border-color: #F7F7F7;
+    background: #F7F7F7;
+    border-radius: 5px;
+    color: #000000 !important;
+    &.inactive{
+      opacity: 0.4;
+    }
+    :disabled {
+      opacity: 0.4;
+    }
+    &:hover:enabled {
+     color:#F7F7F7;
+     background-color: #FFF;
+    }
+    span{
+      vertical-align: middle;
+      color: #000000 !important;
+    }
+`;

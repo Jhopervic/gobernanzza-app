@@ -15,7 +15,7 @@ export const SDivLogo = styled.div`
   }
 `;
 
-export const SDivLoading = styled.div`
+export const SDivCheck = styled.div`
   display: flex;
   justify-content: center;
   width:100% !important;
@@ -34,7 +34,7 @@ export const SDivLoading = styled.div`
 export const SDivLB01 = styled.div`
   display: flex;
   justify-content: center;
-  width:80% !important;
+  width:50% !important;
   text-align: center;
   margin-top: 60pt;
   margin-left:auto;

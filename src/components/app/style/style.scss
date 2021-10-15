@@ -76,6 +76,18 @@ body {
 .icon-scan:before {
   content: "\e904";
 }
+.icon-scan:before {
+  content: "\e904";
+}
+.icon-start:before {
+  content: "\e909";
+}
+.icon-minus:before {
+  content: "\e90a";
+}
+.icon-arrow:before {
+  content: "\e90b";
+}
 .inputicon {
   margin-left: -30px;
   cursor: pointer;
@@ -87,6 +99,19 @@ body {
 .icon-announcement:before {
   content: "\e908";
   color: #2e3a59;
+}
+.icon-like:before {
+  content: "\e90c";
+  color: #e8703a;
+
+}
+.icon-unlike:before {
+  content: "\e913";
+  color: #f48c06;
+}
+
+.icon-special{
+  color:#F9CEC0 !important;
 }
 a,a:visited{
   color:#F2753F !important;
@@ -226,3 +251,8 @@ a:hover i{
 .accordion-body {
   padding: 0 !important;
 }
+
+.start-active{
+  color:#F28B12 !important;
+}
+
