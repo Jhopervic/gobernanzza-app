@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/gobernanzza-app/static/css/main.01a2c797.chunk.css",
-    "main.js": "/gobernanzza-app/static/js/main.e9dbc1b6.chunk.js",
-    "main.js.map": "/gobernanzza-app/static/js/main.e9dbc1b6.chunk.js.map",
-    "runtime-main.js": "/gobernanzza-app/static/js/runtime-main.55043ac0.js",
-    "runtime-main.js.map": "/gobernanzza-app/static/js/runtime-main.55043ac0.js.map",
+    "main.css": "/gobernanzza-app/static/css/main.7de7fc72.chunk.css",
+    "main.js": "/gobernanzza-app/static/js/main.cb9612fb.chunk.js",
+    "main.js.map": "/gobernanzza-app/static/js/main.cb9612fb.chunk.js.map",
+    "runtime-main.js": "/gobernanzza-app/static/js/runtime-main.ffd51e1a.js",
+    "runtime-main.js.map": "/gobernanzza-app/static/js/runtime-main.ffd51e1a.js.map",
     "static/css/2.f2512455.chunk.css": "/gobernanzza-app/static/css/2.f2512455.chunk.css",
-    "static/js/2.b2b965b1.chunk.js": "/gobernanzza-app/static/js/2.b2b965b1.chunk.js",
-    "static/js/2.b2b965b1.chunk.js.map": "/gobernanzza-app/static/js/2.b2b965b1.chunk.js.map",
-    "static/js/3.6523d446.chunk.js": "/gobernanzza-app/static/js/3.6523d446.chunk.js",
-    "static/js/3.6523d446.chunk.js.map": "/gobernanzza-app/static/js/3.6523d446.chunk.js.map",
+    "static/js/2.99d11afd.chunk.js": "/gobernanzza-app/static/js/2.99d11afd.chunk.js",
+    "static/js/2.99d11afd.chunk.js.map": "/gobernanzza-app/static/js/2.99d11afd.chunk.js.map",
+    "static/js/3.cee7152e.chunk.js": "/gobernanzza-app/static/js/3.cee7152e.chunk.js",
+    "static/js/3.cee7152e.chunk.js.map": "/gobernanzza-app/static/js/3.cee7152e.chunk.js.map",
     "index.html": "/gobernanzza-app/index.html",
     "static/css/2.f2512455.chunk.css.map": "/gobernanzza-app/static/css/2.f2512455.chunk.css.map",
-    "static/css/main.01a2c797.chunk.css.map": "/gobernanzza-app/static/css/main.01a2c797.chunk.css.map",
-    "static/js/2.b2b965b1.chunk.js.LICENSE.txt": "/gobernanzza-app/static/js/2.b2b965b1.chunk.js.LICENSE.txt",
+    "static/css/main.7de7fc72.chunk.css.map": "/gobernanzza-app/static/css/main.7de7fc72.chunk.css.map",
+    "static/js/2.99d11afd.chunk.js.LICENSE.txt": "/gobernanzza-app/static/js/2.99d11afd.chunk.js.LICENSE.txt",
     "static/media/Ellipse.svg": "/gobernanzza-app/static/media/Ellipse.e92bb027.svg",
-    "static/media/style.scss": "/gobernanzza-app/static/media/gobernanzza-font.868b3140.svg",
+    "static/media/style.scss": "/gobernanzza-app/static/media/gobernanzza-font.c70f0832.woff",
+    "static/media/block-comments.svg": "/gobernanzza-app/static/media/block-comments.f8997fb5.svg",
     "static/media/check.svg": "/gobernanzza-app/static/media/check.3244cd9b.svg",
     "static/media/gobernanzza_log.svg": "/gobernanzza-app/static/media/gobernanzza_log.429a577e.svg",
+    "static/media/icon-pdf.svg": "/gobernanzza-app/static/media/icon-pdf.d095ba4e.svg",
     "static/media/icon_assembly.svg": "/gobernanzza-app/static/media/icon_assembly.12625ce0.svg",
     "static/media/icon_council.svg": "/gobernanzza-app/static/media/icon_council.6f79ce3a.svg",
     "static/media/icon_debate.svg": "/gobernanzza-app/static/media/icon_debate.8155b2dc.svg",
@@ -29,13 +31,15 @@
     "static/media/icon_voting.svg": "/gobernanzza-app/static/media/icon_voting.1af8032c.svg",
     "static/media/img_crear.svg": "/gobernanzza-app/static/media/img_crear.0b1b7dd6.svg",
     "static/media/loading.svg": "/gobernanzza-app/static/media/loading.44770c0c.svg",
-    "static/media/puzzle.png": "/gobernanzza-app/static/media/puzzle.30080c87.png"
+    "static/media/pdf_example.ae7dcb26.pdf": "/gobernanzza-app/static/media/pdf_example.ae7dcb26.pdf",
+    "static/media/puzzle.png": "/gobernanzza-app/static/media/puzzle.30080c87.png",
+    "static/media/topics.svg": "/gobernanzza-app/static/media/topics.adb415d9.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.55043ac0.js",
+    "static/js/runtime-main.ffd51e1a.js",
     "static/css/2.f2512455.chunk.css",
-    "static/js/2.b2b965b1.chunk.js",
-    "static/css/main.01a2c797.chunk.css",
-    "static/js/main.e9dbc1b6.chunk.js"
+    "static/js/2.99d11afd.chunk.js",
+    "static/css/main.7de7fc72.chunk.css",
+    "static/js/main.cb9612fb.chunk.js"
   ]
 }
