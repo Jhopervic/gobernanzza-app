@@ -19,7 +19,7 @@ function SearchCoop3(props) {
    
       <SDivCooperative>
         <Col xs={8} sm={8} md={9} lg={9} xl={9}>
-          <h3>Nombre Coop. S.C.</h3>
+          <h3>BLOCKCHAINFUE, COOP.V.</h3>
           </Col>
           <Col xs={4} sm={4} md={3} lg={3} xl={3}>
               <div className={"registerlabel"}>Registrada</div>
@@ -27,31 +27,31 @@ function SearchCoop3(props) {
       </SDivCooperative> 
       <SDivParagraph>
         <h3>Domicilio social</h3>
-        <p>Carretera Madrid, 61, 37900, Santa Marta Tormes Salamanca, Salamanca</p>
+        <p>Bloque Colegio Mayor Universidad de Alicante, S/N, Campus San Vicente del Raspeig, 03690, San Vicente del Raspeig (Alicante)</p>
       </SDivParagraph>
       <SDivParagraph>
         <h3>CIF</h3>
-        <p>F37341120</p>
+        <p>F42703223</p>
       </SDivParagraph>
       <SDivParagraph>
         <h3>Objeto social</h3>
-        <p>Construccion y reformas.</p>
+        <p> Fomentar la investigación básica y aplicada, la difusión y transferencia del conocimiento de la Tecnología Blockchain.</p>
       </SDivParagraph>
       <SDivParagraph>
         <h3>Forma jurídica</h3>
-        <p>Construccion y reformas.</p>
+        <p>Sociedad Cooperativa</p>
       </SDivParagraph>
       <SDivParagraph>
         <h3>Actividad</h3>
-        <p>Albañilería y pequeños trabajos de construcción en general</p>
+        <p>Aplicación práctica de la tecnología Blockchain utilizando la red pública “BlockchainFUE”</p>
       </SDivParagraph>
       <SDivParagraph>
         <h3>Actividad CNAE</h3>
-        <p>4399 - Otras actividades de construcción especializada n.c.o.p.</p>
+        <p>8299 otras actividades de apoyo a las empresas n.c.o.p.</p>
       </SDivParagraph>
       <SDivParagraph>
         <h3>Grupo Sector</h3>
-        <p>Construcción y actividades inmobiliarias</p>
+        <p>Nuevas Tecnologías</p>
       </SDivParagraph>
       <SDivAnnouncement>
         <div></div>

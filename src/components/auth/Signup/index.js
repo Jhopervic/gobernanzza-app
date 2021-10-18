@@ -14,6 +14,8 @@ import {
   SDivError
 }from "./customstyled"
 import { SInputText,SErrorLabel,SLoading,SBtnPrimary } from "components/styled-components/components";
+import { useHistory } from "react-router-dom";
+
 const INPUT_REQUIRED_MSG = "Campo obligatorio";
 
 function Signup(props) {
@@ -21,9 +23,10 @@ function Signup(props) {
   const { handleSubmit, register,formState: { errors } } = useForm();
   const [errormessage, setErrorMessage] = useState("");
   const[IsLoading,setIsLoading]=useState(false);
-  
+  const history = useHistory();
   function onSubmit(event) {
     setIsLoading(true);
+    history.push(reverseURL({ name: "accountcreated" }));
     
   }
   function togglePasswordVisiblity(event) {

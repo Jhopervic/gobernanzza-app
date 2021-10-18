@@ -6,7 +6,6 @@ import SearchCoop from "components/pages/SearchCoop"
 import SearchCoop3 from "components/pages/SearchCoop3"
 import JoinToCoop from "components/pages/JoinToCoop"
 import Cooperative from "components/pages/Cooperative"
-import Root from "components/pages/Root"
 import Debate from "components/pages/Debate"
 import SearchCoop7 from "components/pages/SearchCoop7"
 import Voting from "components/pages/Voting"
@@ -18,15 +17,11 @@ import OpenTopics from "components/pages/OpenTopics"
 import OpenVotes from "components/pages/OpenVotes"
 const publicRoutes = [
   {
-    name: "root",
-    route: "/",
-    component: Root,
-  },
-  {
     name: "home",
-    route: "/pantalla-principal",
+    route: "/",
     component: Home,
   },
+ 
   {
     name: "signup",
     route: "/crear-cuenta",

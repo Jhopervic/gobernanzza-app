@@ -8,8 +8,8 @@ export const SDivCooperativeItem = styled.div`
   padding-top:15px;
   padding-bottom:15px;  
   img{
-    width: 64px;
-    height: 64px;
+    width: 70px;
+    height: auto;
     top: 0px;
     left: 0px;
     margin-right:15px;

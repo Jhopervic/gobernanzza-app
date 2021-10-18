@@ -64,3 +64,25 @@ export const SDivLB02 = styled.div`
   letter-spacing: 0.0125em;
   color: #959595;
 `;
+export const FooterBox = styled.div`
+  position: fixed;
+  display:flex;
+  z-index: 1000;
+  bottom: 0;
+  left: 0px !important;
+  right: 0px !important;
+  padding-bottom:10px;
+  padding-right:15px;
+  vertical-align:bottom !important;
+`;
+
+export const SDivRight = styled.div`
+  float:right;
+  text-align:right !important;
+  i{
+    font-size:40px;
+    color:#F48C06;
+    vertical-align:middle !important;
+    cursor:pointer;
+  }
+`;

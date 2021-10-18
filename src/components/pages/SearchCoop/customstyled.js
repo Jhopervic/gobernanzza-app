@@ -94,14 +94,14 @@ export const SDivCooperativeList = () => {
       <SDivCooperativeItem className="mt-40">
         <Col xs={3} sm={3} md={2} lg={2} xl={2}>
         <img
-          src={require("components/assets/img/Ellipse.svg").default}
+          src={require("components/assets/img/blockchainfue.png").default}
           alt="Gobernanzza"
         />
         </Col>
         <Col xs={9} sm={9} md={10} lg={10} xl={10}>
             <Link to="buscador-de-coop3" className="content">
-               <h3>Nombre Coop. S.C.</h3>
-              <span>Carretera Madrid, 61, 37900, Santa Marta Tormes Salamanca, Salamanca</span>
+               <h3>BLOCKCHAINFUE, COOP.V.</h3>
+              <span>Bloque Colegio Mayor Universidad de Alicante, S/N, Campus San Vicente del Raspeig, 03690, San Vicente del Raspeig (Alicante)</span>
             </Link>
         </Col>    
       </SDivCooperativeItem>
@@ -109,37 +109,37 @@ export const SDivCooperativeList = () => {
       <SDivCooperativeItem>
         <Col xs={3} sm={3} md={2} lg={2} xl={2}>
         <img
-          src={require("components/assets/img/Ellipse.svg").default}
+          src={require("components/assets/img/avante.png").default}
           alt="Gobernanzza"
         />
         </Col>
         <Col xs={9} sm={9} md={10} lg={10} xl={10}>
-            <h3>Nombre Coop. S.C.</h3>
-            <span>Dirección social de la cooperativa mostrada en este espacio</span>
+            <h3>Avante S.coop.and</h3>
+            <span>Calle Esteban Salazar Chapela 11, 1º,29004 Málaga</span>
         </Col>    
       </SDivCooperativeItem>
       <SDivCooperativeItem>
         <Col xs={3} sm={3} md={2} lg={2} xl={2}>
         <img
-          src={require("components/assets/img/Ellipse.svg").default}
+          src={require("components/assets/img/eco-export.png").default}
           alt="Gobernanzza"
         />
         </Col>
         <Col xs={9} sm={9} md={10} lg={10} xl={10}>
-            <h3>Nombre Coop. S.C.</h3>
-            <span>Dirección social de la cooperativa mostrada en este espacio</span>
+            <h3>Eco Export S.Coop.and</h3>
+            <span>Calle Arquitecto Eduardo Esteve, 12 , 2-6, 29017 Málaga</span>
         </Col>    
       </SDivCooperativeItem>
       <SDivCooperativeItem>
         <Col xs={3} sm={3} md={2} lg={2} xl={2}>
         <img
-          src={require("components/assets/img/Ellipse.svg").default}
+          src={require("components/assets/img/cooperativism-andaluz.png").default}
           alt="Gobernanzza"
         />
         </Col>
         <Col xs={9} sm={9} md={10} lg={10} xl={10}>
-            <h3>Nombre Coop. S.C.</h3>
-            <span>Dirección social de la cooperativa mostrada en este espacio</span>
+            <h3>Nombre Cooperativa</h3>
+            <span>Dirección social de la Cooperativa mostrada en este espacio</span>
         </Col>    
       </SDivCooperativeItem>
     </>
@@ -156,8 +156,8 @@ const SDivCooperativeItem = styled.div`
   border-bottom: rgba(0, 0, 0, 0.3) solid 2px;
   
   img{
-    width: 64px;
-    height: 64px;
+    width: 70px;
+    height: auto;
     top: 0px;
     left: 0px;
     margin-right:15px;

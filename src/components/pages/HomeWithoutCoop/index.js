@@ -4,7 +4,14 @@ import {SDivLogo,SDivLB01,SDivLB02,SDivLB03,SDivLB04,FooterBox} from "./customst
 import { MainContainer,WorkArea } from "components/styled-components/components";
 import {Col} from 'react-bootstrap'
 import Menu from "components/layout/Menu";
+import { reverseURL } from "components/app/Router/utils";
+import { useHistory } from "react-router-dom";
 function HomeWithoutCoop(props) {
+  const history = useHistory();
+  const onClickBtn = () => {
+       history.push(reverseURL({ name: "searchcoop" }));
+ 
+  };
   return (
     <>
       <BaseLayout>
@@ -27,7 +34,7 @@ function HomeWithoutCoop(props) {
                     src={require("components/assets/img/img_crear.svg").default}
                   alt="Gobernanzza"
                 />
-                <i className="icon-add"></i>
+                <i className="icon-add"  onClick={onClickBtn}></i>
           </Col>
         </WorkArea>
         </MainContainer>

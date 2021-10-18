@@ -38,13 +38,13 @@ function Cooperative(props) {
     <SDivCooperativeItem>
         <Col xs={3} sm={3} md={2} lg={2} xl={2}>
         <img
-          src={require("components/assets/img/Ellipse.svg").default}
+          src={require("components/assets/img/blockchainfue.png").default}
           alt="Gobernanzza"
         />
         </Col>
         <Col xs={9} sm={9} md={10} lg={10} xl={10}>
-              <h3>NOMBRE S.Coop.</h3>
-              <span>Categoria de cooperativa por definir</span>
+              <h3>BLOCKCHAINFUE, COOP.V.</h3>
+              <span>Fintech</span>
               <SDivBadges>Miembro</SDivBadges>
         </Col>    
       </SDivCooperativeItem>
@@ -58,20 +58,20 @@ function Cooperative(props) {
                     <SDivInformation>
                       <div>
                           <h3>Domicilio social</h3>
-                          <span>Carretera Madrid, 61, 37900, Santa Marta Tormes (Salamanca)</span>
+                          <span>Bloque Colegio Mayor Universidad de Alicante, S/N, Campus San Vicente del Raspeig, 03690, San Vicente del Raspeig (Alicante)</span>
                       </div>    
                     </SDivInformation>
                     <SDivInformation>
                         <SDivColLeft>
                           <div>
                              <h3>CIF</h3>
-                              <span>F37341120</span>
+                              <span>F42703223</span>
                           </div>
                         </SDivColLeft>
                         <SDivColRight>
                           <div>
                               <h3>Objeto social</h3>
-                              <span>Construcción y reformas</span>
+                              <span>Fomentar la investigación básica y aplicada, la difusión y transferencia del conocimiento de la Tecnología Blockchain.</span>
                           </div>
                         </SDivColRight>
                     </SDivInformation>
@@ -79,13 +79,13 @@ function Cooperative(props) {
                         <SDivColLeft>
                           <div>
                              <h3>Actividad CNAE</h3>
-                              <span>4399 - Otras actividades de construcción especializada n.c.o.p.</span>
+                              <span> 8299 otras actividades de apoyo a las empresas n.c.o.p.</span>
                           </div>
                         </SDivColLeft>
                         <SDivColRight>
                           <div>
                               <h3>Actividad</h3>
-                              <span>Albañilería y pequeños trabajos de construcción en general</span>
+                              <span>Aplicación práctica de la tecnología Blockchain utilizando la red pública “BlockchainFUE”</span>
                           </div>
                         </SDivColRight>
                     </SDivInformation>
@@ -93,13 +93,13 @@ function Cooperative(props) {
                         <SDivColLeft>
                           <div>
                              <h3>Forma jurídica</h3>
-                              <span>Construcción y reformas</span>
+                              <span>Sociedad Cooperativa</span>
                           </div>
                         </SDivColLeft>
                         <SDivColRight>
                           <div>
                               <h3>Grupo sector</h3>
-                              <span>Construcción y actividades inmobiliarias</span>
+                              <span>Nuevas Tecnologías</span>
                           </div>
                         </SDivColRight>
                     </SDivInformation>

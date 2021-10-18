@@ -91,6 +91,7 @@ export const FooterBox = styled.div`
   i{
     font-size:40px;
     color:#F2753F;
+    cursor:pointer;
   }
   img{
     position:relative;
