@@ -196,7 +196,7 @@ export const SBtnPrimarySm = styled.button`
       opacity: 0.4;
     }
     &:hover:enabled {
-     color:#F2753F;
+     color:#F2753F !important;
      background-color: #FFF;
     }
     span{
@@ -265,7 +265,7 @@ export const SBtnSpecialSm = styled.button`
     border-color: #F48C06;
     background: #F48C06;
     border-radius: 5px;
-    color: #FFFFFF !important;
+    color: #FFFFFF;
     &.inactive{
       opacity: 0.4;
     }
@@ -273,12 +273,16 @@ export const SBtnSpecialSm = styled.button`
       opacity: 0.4;
     }
     &:hover:enabled {
-     color:#F48C06;
+     color:#F48C06 !important;
      background-color: #FFF;
     }
+    &:hover:enabled span {
+      color:#F48C06 !important;
+      
+     }
     span{
       vertical-align: middle;
-      color: #FFffFF !important;
+      color: #FFffFF;
     }
 `;
 export const SBtnSpecial2Sm = styled.button`

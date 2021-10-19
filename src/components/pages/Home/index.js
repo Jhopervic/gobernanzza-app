@@ -1,8 +1,6 @@
 import React from "react";
 import BaseLayout from "components/layout/BaseLayout";
-import {SDivHome,FooterBox,SDivRight} from "./customstyled"
-import { MainContainer,WorkArea } from "components/styled-components/components";
-import {Col} from 'react-bootstrap';
+import {SDivHome,FooterBox} from "./customstyled"
 import { reverseURL } from "components/app/Router/utils";
 import { useHistory } from "react-router-dom";
 function Home(props) {
@@ -22,15 +20,7 @@ function Home(props) {
             />
         </SDivHome>
         <FooterBox >
-            <MainContainer>
-              <WorkArea > 
-                    <Col xs={12} sm={12} md={7} lg={6} xl={5} >
-                      <SDivRight>
-                        <i className="icon-next" onClick={onClickBtn}></i>
-                      </SDivRight>
-                    </Col>
-                </WorkArea>
-            </MainContainer>
+            <i className="icon-next" onClick={onClickBtn}></i>
         </FooterBox>
       </BaseLayout>
     </>

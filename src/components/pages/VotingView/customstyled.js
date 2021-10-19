@@ -1,11 +1,13 @@
 import styled from "styled-components";
 
 export const SDivBtnBottom = styled.div`
+  position:relative;
   width:100% !important;
   margin-bottom:25px;
   padding-left:15px;
   padding-right:15px;
   text-align:center;
+  padding-top:80pt;
   bottom:0;
 `;
 
