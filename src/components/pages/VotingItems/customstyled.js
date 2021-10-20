@@ -123,6 +123,7 @@ export const SDivLeft = styled.div`
   i{
     font-size:40px;
     color:#B0B0B0;
+    cursor:pointer;
   }
 `;
 export const SDivRight = styled.div`
@@ -132,6 +133,7 @@ export const SDivRight = styled.div`
     font-size:40px;
     color:#F48C06;
     vertical-align:middle !important;
+    cursor:pointer;
   }
   div{
         font-family: Roboto;

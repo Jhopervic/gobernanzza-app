@@ -17,7 +17,6 @@ import { SBtnPrimarySm,SBtnDangerSm } from "components/styled-components/compone
 import Menu from "components/layout/Menu";
 import { useHistory } from "react-router-dom";
 import { reverseURL } from "components/app/Router/utils";
-import { MainContainer,WorkArea } from "components/styled-components/components";
 import {Col} from 'react-bootstrap'
 
 function DebateItems(props) {
@@ -36,13 +35,16 @@ function DebateItems(props) {
           history.push(reverseURL({ name: "opentopics" }));
       }
     };
+    const onClickBtnBack = () => {
+          history.push(reverseURL({ name: "cooperative" }));
+    };
   return (
     <>
       <BaseLayout>
         <Menu title="Debates" />
         <SDivDebates>
               <h3>{(discussion===true?"Debates propuestos":"Temas de debate")}</h3>
-              <span>A continuación puedes ver los debates abiertos y cerrados de Ferramar S.C.</span>             
+              <span>A continuación puedes ver los debates abiertos y cerrados de Blockchain Fue</span>             
         </SDivDebates>
         <SDivRowBtn>
                      <SDivColLeft>
@@ -60,8 +62,8 @@ function DebateItems(props) {
       <SDivDiscussionList className={(discussion===true?"":"invisible")}>
             <SDivDiscussionItem>
               <SDivBadges green>20 días</SDivBadges>
-              <h3>Nombre de cooperativa</h3>
-              <span>@nombre_usuario  <br/>
+              <h3>Temas a tratar en el próximo Consejo Rector</h3>
+              <span>@Admin  <br/>
                   Creado el 14/05/2021
               </span>
               <Stars score={3}/>
@@ -73,8 +75,8 @@ function DebateItems(props) {
             </SDivDiscussionItem>
             <SDivDiscussionItem>
               <SDivBadges yellow>05 días</SDivBadges>
-              <h3>Decidir domicilio social</h3>
-              <span>@nombre_usuario  <br/>
+              <h3>Incorporación de nuevos socios</h3>
+              <span>@Admin  <br/>
                   Creado el 14/05/2021
               </span>
               <Stars score={4}/>
@@ -88,8 +90,8 @@ function DebateItems(props) {
         <SDivDiscussionList className={(discussion===true?"invisible":"")}>
             <SDivDiscussionItem>
               <SDivBadges >Finalizado</SDivBadges>
-              <h3>Decidir domicilio social</h3>
-              <span>@nombre_usuario  <br/>
+              <h3>Temas a tratar en el próximo Consejo rector</h3>
+              <span>@Admin  <br/>
                   Creado el 14/05/2021
               </span>
               <Stars score={4}/>
@@ -101,8 +103,8 @@ function DebateItems(props) {
             </SDivDiscussionItem>
             <SDivDiscussionItem>
               <SDivBadges >Finalizado</SDivBadges>
-              <h3>Nombre de cooperativa</h3>
-              <span>@nombre_usuario  <br/>
+              <h3>Incorporación de nuevos socios</h3>
+              <span>@Admin  <br/>
                   Creado el 14/05/2021
               </span>
               <Stars score={2}/>
@@ -114,8 +116,8 @@ function DebateItems(props) {
             </SDivDiscussionItem>
             <SDivDiscussionItem>
               <SDivBadges >Finalizado</SDivBadges>
-              <h3>Elegir proveedor de transporte</h3>
-              <span>@nombre_usuario  <br/>
+              <h3>Proveedor de servidores</h3>
+              <span>@Admin  <br/>
                   Creado el 14/05/2021
               </span>
               <Stars score={4}/>
@@ -128,21 +130,20 @@ function DebateItems(props) {
             
         </SDivDiscussionList>
         <FooterBox >
-            <MainContainer>
-              <WorkArea > 
-                    <Col xs={12} sm={12} md={7} lg={6} xl={5} >
+          <Col>
                       <SDivLeft>
-                        <i className="icon-arrow"></i>
+                        <i className="icon-arrow" onClick={onClickBtnBack}></i>
                       </SDivLeft>
                       <SDivRight>
                         {discussion===true &&
-                            <div><span>PROPONER DEBATE</span><i className="icon-add"/></div>
+                          <>
+                              <div><span>PROPONER DEBATE</span><i className="icon-add"/></div>
+                              <i className={" icon-minus icon-special"}></i>
+                            </>
                         }
-                        <i className={(discussion===true?" icon-minus icon-special":"icon-add")}></i>
+                        
                       </SDivRight>
-                    </Col>
-                </WorkArea>
-            </MainContainer>
+             </Col>         
         </FooterBox>
       </BaseLayout>
     </>

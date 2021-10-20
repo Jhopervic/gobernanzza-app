@@ -35,13 +35,16 @@ function VotingItems(props) {
           history.push(reverseURL({ name: "openvotes" }));
       }
     };
+    const onClickBtnBack = () => {
+      history.push(reverseURL({ name: "cooperative" }));
+};
   return (
     <>
       <BaseLayout>
         <Menu title="Votaciones" />
         <SDivVoting>
               <h3>Vota y dá tu opinión</h3>
-              <span>A continuación puedes ver las votaciones abiertas y finalizadas de Ferramar S.C.</span>
+              <span>A continuación puedes ver las votaciones abiertas y finalizadas de Blockchain Fue</span>
         </SDivVoting>
         <SDivRowBtn>
                      <SDivColLeft>
@@ -59,8 +62,8 @@ function VotingItems(props) {
       <SDivVotingList className={(open===true?"":"invisible")}>
             <SDivVotingItem>
               <SDivBadges green>20 días</SDivBadges>
-              <h3>Nombre de cooperativa</h3>
-              <span>@nombre_usuario  <br/>
+              <h3>Temas a tratar en el próximo Consejo Rector</h3>
+              <span>@Admin  <br/>
                   Creado el 14/05/2021
               </span>           
               <SDivBtnView>
@@ -71,8 +74,8 @@ function VotingItems(props) {
             </SDivVotingItem>
             <SDivVotingItem>
               <SDivBadges yellow>05 días</SDivBadges>
-              <h3>Decidir domicilio social</h3>
-              <span>@nombre_usuario  <br/>
+              <h3>Incorporación de nuevos socios</h3>
+              <span>@Admin  <br/>
                   Creado el 14/05/2021
               </span>
               <SDivBtnView>
@@ -85,8 +88,8 @@ function VotingItems(props) {
         <SDivVotingList className={(open===true?"invisible":"")}>
             <SDivVotingItem>
               <SDivBadges green>aprobado</SDivBadges>
-              <h3>Florístería María del Carmen</h3>
-              <span>@nombre_usuario  <br/>
+              <h3>Temas a tratar en el próximo Consejo rector</h3>
+              <span>@Admin  <br/>
                   Creado el 14/05/2021
               </span>
               <SDivBtnView>
@@ -97,8 +100,8 @@ function VotingItems(props) {
             </SDivVotingItem>
             <SDivVotingItem>
               <SDivBadges >denegado</SDivBadges>
-              <h3>Decidir domicilio social “Calle La Fuente, nº25, 2º der.</h3>
-              <span>@nombre_usuario  <br/>
+              <h3>Incorporación de nuevos socios</h3>
+              <span>@Admin  <br/>
                   Creado el 14/05/2021
               </span>
               <SDivBtnView>
@@ -109,8 +112,8 @@ function VotingItems(props) {
             </SDivVotingItem>
             <SDivVotingItem>
               <SDivBadges green>aprobado</SDivBadges>
-              <h3>Elegir proveedor de transporte</h3>
-              <span>@nombre_usuario  <br/>
+              <h3>Proveedor de servidores</h3>
+              <span>@Admin  <br/>
                   Creado el 14/05/2021
               </span>
               <SDivBtnView>
@@ -126,13 +129,16 @@ function VotingItems(props) {
               <WorkArea > 
                     <Col xs={12} sm={12} md={7} lg={6} xl={5} >
                       <SDivLeft>
-                        <i className="icon-arrow"></i>
+                        <i className="icon-arrow" onClick={onClickBtnBack}></i>
                       </SDivLeft>
                       <SDivRight>
                         {open===true &&
+                        <>
                             <div><span>NUEVA VOTACIÓN</span><i className="icon-add"/></div>
+                            <i className={"icon-minus icon-special"}></i>
+                        </>
                         }
-                        <i className={(open===true?" icon-minus icon-special":"icon-add")}></i>
+                        
                       </SDivRight>
                     </Col>
                 </WorkArea>

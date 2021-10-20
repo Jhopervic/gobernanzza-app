@@ -11,6 +11,9 @@ function OpenVotes(props) {
   const onClickBtnVote = (value) => {  
         history.push(reverseURL({ name: "councilvoting" }));
   };
+  const onClickBtBack = () => {  
+    history.push(reverseURL({ name: "votingitems" }));
+};
   return (
     <>
       <BaseLayout>
@@ -33,33 +36,34 @@ function OpenVotes(props) {
             <SDivBlock>25</SDivBlock>
       </SDivRow>
       <SDivMainTopic>
-              <h3>Nombre de cooperativa</h3>
-              <span>@nombre_usuario<br/>14/05/2021</span>
-              <p>“He abierto este debate para que podamos exponer en común las ideas que tengáis sobre cual debería ser el nombre de nuestra cooperativa”</p>
+              <h3>Temas a tratar en el próximo Consejo Rector</h3>
+              <span>@Admin<br/>14/05/2021</span>
+              <p>“HHe abierto esta votación para que podamos exponer en común los temas a tratar en el próximo Consejo Rector”</p>
               <SDivOptionsRow><i className="icon-like"/><span className="mr-15">25</span><i className="icon-unlike"/><span>09</span>
                   <div><span className={"view"}>(2) Ver respuestas</span><span className={"answer ml-15"}>Responder</span></div>
               </SDivOptionsRow>
       </SDivMainTopic>
       <SDivSubTopicContainer>
             <SDivSubTopic>
-              <h3>Propongo “Montaner”</h3>
-              <span>@nombre_usuario<br/>14/05/2021</span>
-              <p>“Desde el inicio hemos estado bajo las instrucciones de Fernando Montaner, además es nuestro mejor escudero hasta que la cooperativa ande sola”</p>
+              <h3>Incorporación de nuevos socios</h3>
+              <span>@Admin<br/>14/05/2021</span>
+              <p>Debido a que nos han llegado varias solicitudes, debemos analizarlas y ponerlas en común.</p>
+              <p>Una vez analizado el informe que hemos recibido creo que estas nuevas incorporaciones se adaptan a la filosofía y el objetivo de la Cooperativa</p>
               <SDivOptionsRow><i className="icon-like"/><span className="mr-15">25</span><i className="icon-unlike"/><span>09</span>
                   <div><span className={"view-disabled"}>Ver respuestas</span><span className={"answer ml-15"}>Responder</span></div>
               </SDivOptionsRow>
            </SDivSubTopic>
            <SDivSubTopic>
-              <h3>Me gusta “Ferricol”</h3>
-              <span>@nombre_usuario<br/>14/05/2021</span>
-              <p>“He abierto este debate para que podamos exponer en común las ideas que tengáis sobre cual debería ser el nombre de nuestra cooperativa”</p>
+              <h3>Proveedor de servidores</h3>
+              <span>@Admin<br/>14/05/2021</span>
+              <p>creo que es mejor tener varios servidores virtuales para asegurarnos su funcionamiento continuado.</p>
               <SDivOptionsRow><i className="icon-like"/><span className="mr-15">25</span><i className="icon-unlike"/><span>09</span>
                   <div><span className={"view-disabled"}>Ver respuestas</span><span className={"answer ml-15"}>Responder</span></div>
               </SDivOptionsRow>
            </SDivSubTopic>
       </SDivSubTopicContainer>
       <SDivBtn>
-              <SBtnGrey >
+              <SBtnGrey onClick={onClickBtBack} >
                            <span>Volver</span> </SBtnGrey>
       </SDivBtn>
       </BaseLayout>

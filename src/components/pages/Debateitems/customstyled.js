@@ -94,8 +94,7 @@ export const SDivBadges = styled.div`
     background: ${props => props.green ? "#D9EED5" : (props => props.yellow?"#FFEFB5":"#FFB5B5")} ;
 `;
 export const Stars = (props) => {
-  console.log(props.score)
-  return (
+    return (
     <SDivStars>
       <i className={`icon-start ${props.score>=1 ? " start-active" : ""}`}/>
       <i className={`icon-start ${props.score>=2 ? " start-active" : ""}`}/>
@@ -123,35 +122,42 @@ export const SDivBtnView = styled.div`
 `;
 
 export const FooterBox = styled.div`
-  position: fixed;
-  display:flex;
-  z-index: 1000;
-  bottom: 0;
-  left: 0px !important;
-  right: 0px !important;
-  padding-bottom:10px;
-  padding-right:15px;
-  vertical-align:bottom !important;
+    width:100%;
+    position: relative;
+    vertical-align:bottom !important;
+    text-align:left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top:80px !important;
 `;
 
-export const SDivLeft = styled.div`
+export const SDivLeft = styled.div` 
   float:left;
-  position: absolute;
-  bottom: 0px;
-  padding-bottom:5px;
-  margin-left:10px;
-  i{
+  display:block;
+  margin-left:10px !important;
+  left:10px !important;
+  position:absolute;
+  bottom:10px !important;
+  
+   i{
     font-size:40px;
     color:#B0B0B0;
+    cursor:pointer;
   }
 `;
 export const SDivRight = styled.div`
-  float:right;
-  text-align:right !important;
-  i{
+    float:right;
+    position:relative;
+    margin-bottom:10px !important;
+    margin-right:10px;    
+    text-align:right !important;
+       
+    i{
     font-size:40px;
     color:#F48C06;
     vertical-align:middle !important;
+    cursor:pointer;
   }
   div{
         font-family: Roboto;

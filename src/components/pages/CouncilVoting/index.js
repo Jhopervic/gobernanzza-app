@@ -11,7 +11,7 @@ function CouncilVoting(props) {
   const history = useHistory();
   const [value, setValue] = useState("Y");
   const onClickBtn = () => {
-       history.push(reverseURL({ name: "votingview" }));
+       history.push(reverseURL({ name: "confirmation" }));
  
   };
   const onClickBtnVoting = (value) => {

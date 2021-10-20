@@ -26,7 +26,7 @@ function Debate(props) {
       <SDivLB01><h3>Debates propuestos</h3>
       <p>La mejor forma de llegar a un acuerdo, es dando tu opinión, aquí puedes hacerlo:</p>
       <p>1 Puedes ver un listado con los debates abiertos y finalizados, selecciona “abiertos”</p>
-      <p>2) Clica en “ver debate” para observas los detalles actualizados de los temas propuestos</p>
+      <p>2) Clica en “ver debate” para observar los detalles actualizados de los temas propuestos</p>
       <p>3) Da a conocer tu opinión en los debates clicando en “responder” o propón un tema nuevo utilizando “+”</p>
       </SDivLB01>
       <SDivLB02>

@@ -282,7 +282,7 @@ export const SBtnSpecialSm = styled.button`
      }
     span{
       vertical-align: middle;
-      color: #FFffFF;
+      color: #FFffFF !important;
     }
 `;
 export const SBtnSpecial2Sm = styled.button`

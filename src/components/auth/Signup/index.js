@@ -99,7 +99,7 @@ function Signup(props) {
             </Col>
           </Row>
           <SDivLB03>Ya dispongo de una cuenta,{"  "}<Link to={reverseURL({ name: "signup" })}>Iniciar sesión</Link></SDivLB03>
-          <SDivLB04>Conocer más sobre ,{"  "}<Link to={reverseURL({ name: "signup" })}>Gobernanzza</Link></SDivLB04>
+          <SDivLB04>Conocer más sobre ,{"  "}<a href="https://gobernanzza.app/" target="_black">Gobernanzza</a></SDivLB04>
         </form>
        </SDivForm> 
     </BaseLayout>

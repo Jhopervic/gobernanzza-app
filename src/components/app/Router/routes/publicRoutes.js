@@ -15,6 +15,7 @@ import DebateItems from "components/pages/Debateitems"
 import VotingView from "components/pages/VotingView"
 import OpenTopics from "components/pages/OpenTopics"
 import OpenVotes from "components/pages/OpenVotes"
+import Confirmation from "components/pages/Confirmation"
 const publicRoutes = [
   {
     name: "home",
@@ -106,7 +107,12 @@ const publicRoutes = [
     route: "/votaciones-abiertas",
     component: OpenVotes,
   },
-  
+  {
+    name: "confirmation",
+    route: "/confirmacion-de-voto",
+    component: Confirmation,
+  },
+    
 
   
 ];
