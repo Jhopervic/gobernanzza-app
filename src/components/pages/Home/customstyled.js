@@ -5,7 +5,7 @@ export const SDivHome = styled.div`
   justify-content: center;
   width:100% !important;
   text-align: center;
-  height:98vh;
+  height:90vh;
   img{
     margin:auto;
     height: auto;
@@ -24,6 +24,7 @@ export const FooterBox = styled.div`
   vertical-align:bottom !important;
   text-align:right !important;  
   i{
+    margin-right:20px !important;
     font-size:40px !important;
     color:#F48C06;
     vertical-align:middle !important;
