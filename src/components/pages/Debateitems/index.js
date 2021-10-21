@@ -44,7 +44,7 @@ function DebateItems(props) {
         <Menu title="Debates" />
         <SDivDebates>
               <h3>{(discussion===true?"Debates propuestos":"Temas de debate")}</h3>
-              <span>A continuación puedes ver los debates abiertos y cerrados de Blockchain Fue</span>             
+              <span>A continuación puedes ver los debates abiertos y cerrados de BLOCKCHAINFUE, COOP.V</span>             
         </SDivDebates>
         <SDivRowBtn>
                      <SDivColLeft>

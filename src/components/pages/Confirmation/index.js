@@ -8,7 +8,7 @@ import { useHistory } from "react-router-dom";
 function Confirmation(props) {
   const history = useHistory();
   const onClickBtn = () => {
-    history.push(reverseURL({ name: "cooperative" }));
+    history.push(reverseURL({ name: "votingview" }));
 
 };
   return (
